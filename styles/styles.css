@@ -4,6 +4,23 @@ body {
     margin-top: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
 /* main styles */
 .main {
     display: flex;
@@ -59,10 +76,10 @@ body {
 
 .title {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
+    color: #FB6D3A;
     margin-bottom: 10px;
 }
 
@@ -120,7 +137,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #000000;
 }
 
 .period {
@@ -222,7 +239,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #565E6A;
+    color: #dce3ec;
 }
 
 .tech_skills_list,
