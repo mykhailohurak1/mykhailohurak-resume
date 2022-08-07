@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #E5E5E5;
-    margin-top: 40px;
+    /* background-color: #E5E5E5; */
+    /* margin-top: 40px; */
 }
 
 a {
@@ -34,7 +34,7 @@ ul {
 .right_main_content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 85px 85px;
 }
 
 /* about */
@@ -65,8 +65,9 @@ ul {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
-    width: 400px;
+    /* color: #595959; */
+    color: #000000;
+    /* width: 400px; */
 }
 
 /* projects */
@@ -102,11 +103,17 @@ ul {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    /* color: #595959; */
+    color: #000000;
 }
 
 .project_link {
-    margin-left: 10px;
+    color: #FB6D3A;
+}
+
+.project_span {
+    font-style: normal;
+    font-weight: normal;
 }
 
 .project_bracket {
@@ -137,22 +144,24 @@ ul {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #53576e;
+    /* color: #53576e; */
+    color: #000000;
 }
 
 .period {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
-    color: #A8A8A8;
+    /* color: #A8A8A8; */
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .line {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
     color: #000000;
 }
@@ -167,11 +176,13 @@ ul {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    /* color: #595959; */
+    color: #000000;
 }
 
 /* education */
 .education {
+    margin-bottom: 50px;
 }
 
 .university {
@@ -189,7 +200,7 @@ ul {
 .project_title {
 }
 
-/* left sidebar */
+/* left sidebar ========================================================== */
 .left_sidebar {
     background-color: #1E2939;
     padding-top: 40px;
@@ -198,7 +209,7 @@ ul {
 
 .photo {
     width: 370px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .contacts,
@@ -209,11 +220,11 @@ ul {
 }
 
 .soft_skills {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .contacts {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .left_sidebar_title {
@@ -239,7 +250,9 @@ ul {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #dce3ec;
+    /* color: #dce3ec; */
+    color: #FFFFFF;
+    /* color: #000000; */
 }
 
 .tech_skills_list,
